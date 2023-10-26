@@ -42,7 +42,7 @@ export default {
     }
     .title{
 
-        width: 1860px;
+        width: 120vw;
         background: var(--primary-50, #F2F6FB);
         height: 25vh;
     }
@@ -74,7 +74,7 @@ export default {
         background-color: orangered;
     }
     .filter-container{
-        margin-top: 5%;
+        margin-top: 4%;
     }
     .filter-container label{
         margin-left: 10px;

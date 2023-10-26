@@ -74,6 +74,14 @@ export default {
   border-radius: 8px;
 }
 
+.head-register-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .button-complete-card{
   display: flex;
   flex-direction: row;

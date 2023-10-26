@@ -166,7 +166,6 @@ export default {
 
       if (result) {
         this.$router.push('/cadastroCompleto').then(()=>{
-          window.location.reload();
         })
       } else {
         alert('Falha no login. Verifique suas credenciais.');
