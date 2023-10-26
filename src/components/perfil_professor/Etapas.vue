@@ -36,7 +36,7 @@
                 </div>
                 <div class="assunto-selecao">
                     <p>Selecione todas as opções desejáveis</p>
-                    <input type="text" placeholder="Pesquise por assunto" v-model="pesquisaAssunto" />
+                    <input type="text" style="width: 95%;" placeholder="Pesquise por assunto" v-model="pesquisaAssunto" />
                     <div v-for="(area, index) in areas" :key="index">
                         <p>{{ area.nome }}</p>
                         <div class="linha-sutil"></div>
@@ -80,7 +80,7 @@
                     </div>
                 </div>
                 <div class="maiores-dificuldades">
-                    <textarea placeholder="Descreva suas maiores dificuldades nesse(s) assunto(s)" v-model="maioresDificuldades"></textarea>
+                    <textarea style="width: 95%;" placeholder="Descreva suas maiores dificuldades nesse(s) assunto(s)" v-model="maioresDificuldades"></textarea>
                 </div>
                 <button @click="etapaAtual--">Voltar</button>
                 <button @click="proximo" class="botao-proxima-etapa">Próximo</button>
@@ -304,7 +304,7 @@ export default {
 .modal-overlay{
     position: fixed;
     width: 100%;
-    height: 100%;
+    height: auto;
     top: 0;
     right: 0;
     bottom: 0;
@@ -384,8 +384,7 @@ export default {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 30%;
-    height: 50%;
+    width: 35%;
     max-width: 800px;
     padding: 20px;
     border-radius: 10px;
