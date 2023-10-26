@@ -42,13 +42,14 @@ export default {
     }
     .title{
 
-        width: 120vw;
+        width: 100vw;
         background: var(--primary-50, #F2F6FB);
         height: 25vh;
     }
     .form-search{
         display: flex;
         flex-direction: column;
+        padding: 30px;
     }
     .title h1{
 
@@ -73,9 +74,6 @@ export default {
         line-height: 130%;
         background-color: orangered;
     }
-    .filter-container{
-        margin-top: 4%;
-    }
     .filter-container label{
         margin-left: 10px;
     }
@@ -86,7 +84,7 @@ export default {
         text-align: center;
         font-size: 1.09em;
         background-color: transparent;
-        width: 8%;
+        width: auto;
         padding: auto 10px;
         height: 4vh;
 
@@ -95,14 +93,12 @@ export default {
         width: 6%;
     }
     #search-input{
-
         display: flex;
-        position: absolute;
         top: 325px;
-        left: 300px;
         width: 65%;
         height: 2vh;
         padding: 24px;
+        justify-content: center;
         align-items: center;
         margin: 0px auto;
         gap: 8px;
